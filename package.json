@@ -1,0 +1,17 @@
+{
+  "name": "react-inject-script",
+  "version": "1.0.1",
+  "description": "Dynamically inject `<script>` to your react app html file. Benefit, we can load desired library on demand instead of load everything on start up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "git add . && git commit -m 'bug fix' && git push && npm publish --access=public"
+  },
+  "keywords": [
+    "dynamic",
+    "inject",
+    "script"
+  ],
+  "author": "",
+  "license": "MIT"
+}
