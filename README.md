@@ -18,6 +18,11 @@ injectScript('any-unique-name', 'https://link.to.file/min.js').then(() => {
 .catch(e => {
   console.log(`Failed to load: ${e}`);
 });
+
+
 ```
+description
+
+'any-unique-name' should be unique per project. this to prevent from the <script> is injected twice if the library is called more than 1
 
 Source code is copied from here: https://www.linkedin.com/pulse/make-opencv-work-react-apps-james-shen

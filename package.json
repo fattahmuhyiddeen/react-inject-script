@@ -1,6 +1,6 @@
 {
   "name": "react-inject-script",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Dynamically inject `<script>` to your react app html file. Benefit, we can load desired library on demand instead of load everything on start up.",
   "main": "index.js",
   "scripts": {
